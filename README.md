@@ -10,12 +10,13 @@
 
 ```bash
 % git clone https://github.com/pnestevez/wallet-app.git
+% cd wallet-app
 ```
 
 2- API (prerequisites: Docker and Node)
 
 ```bash
-% cd wallet-app
+% cd wallet-api
 % npm install
 % npm run prerequisites
 % npm start
@@ -25,6 +26,7 @@
 3- FE
 
 ```bash
+% cd wallet-fe
 % npm install
 % npm start
 ```
