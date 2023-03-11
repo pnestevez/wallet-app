@@ -1,0 +1,24 @@
+.header {
+  width: 50%;
+  height: 100%;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 0px 16px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+  color: darkblue;
+  font-size: 86px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+    height: 100px;
+  }
+
+  .title{
+    font-size: 78px;
+  }
+}

@@ -1,0 +1,62 @@
+.card{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.pair{
+  background-color: whitesmoke;
+}
+.odd{
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address{
+  font-size: 12px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+
+.trash{
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.equivalence{
+  color: blue;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.balance{
+  display: flex;
+  align-items: center;
+}
+
+.eth, .alert{
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.warning{
+  margin-top: 8px;
+  color: grey;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
